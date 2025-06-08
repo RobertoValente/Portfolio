@@ -10,7 +10,8 @@
     "drizzle-push": "npx drizzle-kit push",
     "drizzle-pull": "npx drizzle-kit pull",
     "drizzle-studio": "npx drizzle-kit studio",
-    "betterauth-gen": "npx @better-auth/cli generate --config src/lib/auth/auth.ts"
+    "betterauth-gen": "npx @better-auth/cli generate --config src/lib/auth/auth.ts",
+    "shadcn-add": "npx shadcn@latest add"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.6",
@@ -29,6 +30,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "resend": "^4.5.1",
+    "simple-icons": "^15.1.0",
     "sonner": "^2.0.3",
     "tailwind-merge": "^3.3.0",
     "zod": "^3.24.4"
