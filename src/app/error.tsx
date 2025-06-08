@@ -25,7 +25,7 @@ export default function Error({
                     () => reset()
                 }
             >
-                <a href="/sign-in">Try Again</a>
+                <a href="/">Try Again</a>
             </Button>
         </>
     )
