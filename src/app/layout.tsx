@@ -23,14 +23,17 @@ export const metadata: Metadata = {
     
     metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
     publisher: "Roberto Valente",
-    applicationName: "Boilerplate - Roberto",
+    applicationName: "Portfolio - Roberto Valente",
     title: {
-        default: "Boilerplate - Roberto",
-        template: "%s | Boilerplate - Roberto",
+        default: "Portfolio - Roberto",
+        template: "%s | Portfolio - Roberto",
     },
-    description: "",
+    description: "I'm Roberto - a developer and a dreamer with action! Always learning, always building.",
     keywords: [
-        ""
+        "roberto valente", "portfolio backend", "portfolio fullstack",
+        "roberto valente portfolio", "roberto valente developer",
+        "Roberto Valente", "Roberto Valente Programador", "Roberto Valente Developer",
+        "robertovalente"
     ],
     alternates: {
         canonical: process.env.NEXT_PUBLIC_SITE_URL!,
@@ -39,7 +42,27 @@ export const metadata: Metadata = {
             "en-US": `${process.env.NEXT_PUBLIC_SITE_URL!}`,
         }
     },
-    //robots: {},
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-image-preview': 'large',
+            'max-video-preview': -1,
+            'max-snippet': -1,
+            noimageindex: false,
+            'notranslate': false,
+        },
+    },
+    verification: {
+        google: 'google-site-verification-code',
+    },
+    other: {
+        'apple-mobile-web-app-capable': 'yes',
+        'apple-mobile-web-app-status-bar-style': 'black-translucent',
+        'format-detection': 'telephone=no',
+    },
     //manifest: "",
     //verification: {},
 
