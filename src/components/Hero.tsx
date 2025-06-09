@@ -1,27 +1,46 @@
-import { Card, CardContent, CardDescription } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function Hero() {
     return (
-        <Card className="p-2">
-            <CardContent className="flex flex-row p-2">
-                <div id="text">
-                    <h1 className="font-semibold text-2xl">What's Up! 🫡</h1>
-                    <p className="text-lg">I'm Roberto, a developer and a dreamer with action.</p>
-                    <p>Currently, learning and building things!</p>
-                    <div className="flex flex-row gap-2 mt-2">
-                        <Button variant={"outline"} size={"icon"} className="cursor-pointer">
-                            <Link href="">
-                                A
-                            </Link>
-                        </Button>
+        <section className="px-4">
+            <div className="mb-2">
+                <span className="text-xs font-bold tracking-wider text-primary uppercase underline underline-offset-4">ABOUT ME</span>
+            </div>
+            <Card className="p-0">
+                <CardContent className="flex flex-row p-6 gap-6 items-center">
+                    <div id="text" className="flex-1 max-w-[420px]">
+                        <h1 className="font-semibold text-3xl mb-2 tracking-tight">{"What's Up! 🫡"}</h1>
+                        <p className="text-base leading-relaxed mb-1">
+                            <span className="font-semibold underline underline-offset-2">
+                                {"I'm Roberto"}
+                            </span>
+                            {" — a developer and a dreamer with action! Always learning, always building."}
+                        </p>
+
+                        <div className="flex flex-row gap-2 mt-4">
+                            <Button
+                                asChild
+                                variant="outline"
+                                className="cursor-pointer"
+                            >
+                                <Link href="https://github.com/RobertoValente" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg>
+                                    Github
+                                </Link>
+                            </Button>
+                        </div>
+
+                        {/*<p className="mt-2 text-muted-foreground text-sm leading-relaxed">
+                            Passionate about technology, robotics, and creating impactful solutions. Always up for a challenge and new experiences!
+                        </p>*/}
                     </div>
-                </div>
-                <div id="img" className="hidden sm:flex items-center justify-center">
-                    img
-                </div>
-            </CardContent>
-        </Card>
+                    <div id="img" className="hidden sm:flex items-center justify-center sm:basis-1/3">
+                        <div className="w-28 h-28 rounded-full bg-muted flex items-center justify-center text-6xl border-2 border-primary/20 shadow-inner">👨‍💻</div>
+                    </div>
+                </CardContent>
+            </Card>
+        </section>
     )
 }
