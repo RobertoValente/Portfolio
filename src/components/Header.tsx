@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link"
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon } from "lucide-react"

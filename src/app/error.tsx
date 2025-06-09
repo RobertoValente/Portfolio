@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { toast } from 'sonner';
+import Link from 'next/link';
 
 export default function Error({
     error,
@@ -25,7 +26,7 @@ export default function Error({
                     () => reset()
                 }
             >
-                <a href="/">Try Again</a>
+                <Link href="/">Try Again</Link>
             </Button>
         </>
     )
