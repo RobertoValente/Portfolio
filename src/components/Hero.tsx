@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function Hero() {
     return (
-        <section className="px-4">
+        <section id="about" className="px-4">
             <div className="mb-2">
                 <span className="text-xs font-bold tracking-wider text-primary uppercase underline underline-offset-4">ABOUT ME</span>
             </div>

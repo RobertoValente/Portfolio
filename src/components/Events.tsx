@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import eventsData from "@/lib/data/events.json";
 
-export function FunExperiences() {
+export function Events() {
     return (
         <section id="events" className="px-4">
             <div className="mb-2">
