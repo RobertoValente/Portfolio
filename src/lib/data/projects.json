@@ -2,30 +2,28 @@
     "projects": [
         {
             "status": "Active",
-            "title": "📈 KeepWorking by Roberto",
-            "description": "Built for my personal productivity with a focus on simplicity, clarity, and usability.",
+            "title": "📈 KeepWorking",
+            "description": "Built for my personal productivity with focus on simplicity, clarity, and usability.",
             "urlGithub": "https://github.com/RobertoValente/KeepWorking",
             "urlSite": "https://keep-working.vercel.app/",
             "images": [
-                "https://i.imgur.com/KnfClbL.png",
-                "https://i.imgur.com/KnfClbL.png",
-                "https://i.imgur.com/KnfClbL.png"
+                "https://i.imgur.com/PPI7PwW.png",
+                "https://i.imgur.com/mqlCs0W.png",
+                "https://i.imgur.com/a0ei7TS.png",
+                "https://i.imgur.com/5oeSZ2v.png",
+                "https://i.imgur.com/3d9hjS5.png"
             ]
         },
         {
-            "status": "MVP",
-            "title": "🚀 SpotsToFly",
-            "description": "MVP Product to Create/View Spots to Fly Drones! Discover and share the best drone flying locations with the community.",
-            "urlSite": "https://spotstofly.com/",
-            "images": []
-        },
-        {
-            "status": "Active",
+            "status": "Archived",
             "title": "📬 ProblemHunt",
             "description": "Show/Submit Problems to be Solved by Developers! A collaborative platform where developers can find interesting challenges to work on.",
             "urlGithub": "https://github.com/RobertoValente/ProblemHunt",
-            "urlSite": "https://problemhunt.robertovalente.pt/",
-            "images": []
+            "images": [
+                "https://i.imgur.com/AWIZmLk.png",
+                "https://i.imgur.com/i7ZKv8r.png",
+                "https://i.imgur.com/F4x08pl.png"
+            ]
         },
         {
             "status": "Archived",
