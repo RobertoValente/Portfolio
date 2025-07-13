@@ -6,19 +6,23 @@
             "description": "Built for my personal productivity with a focus on simplicity, clarity, and usability.",
             "urlGithub": "https://github.com/RobertoValente/KeepWorking",
             "urlSite": "https://keep-working.vercel.app/",
-            "images": []
+            "images": [
+                "https://i.imgur.com/KnfClbL.png",
+                "https://i.imgur.com/KnfClbL.png",
+                "https://i.imgur.com/KnfClbL.png"
+            ]
         },
         {
-            "status": "Active",
-            "title": "🚀 SpotsToFly (MVP)",
-            "description": "MVP Product to Create/View Spots to Fly Drones!",
+            "status": "MVP",
+            "title": "🚀 SpotsToFly",
+            "description": "MVP Product to Create/View Spots to Fly Drones! Discover and share the best drone flying locations with the community.",
             "urlSite": "https://spotstofly.com/",
             "images": []
         },
         {
             "status": "Active",
             "title": "📬 ProblemHunt",
-            "description": "Show/Submit Problems to be Solved by Developers!",
+            "description": "Show/Submit Problems to be Solved by Developers! A collaborative platform where developers can find interesting challenges to work on.",
             "urlGithub": "https://github.com/RobertoValente/ProblemHunt",
             "urlSite": "https://problemhunt.robertovalente.pt/",
             "images": []
@@ -26,7 +30,7 @@
         {
             "status": "Archived",
             "title": "🤖 RoboCup 2023 - LinkingBot Code",
-            "description": "Source Code of LinkingBot Team! Is good to remember this :D",
+            "description": "Source Code of LinkingBot Team!",
             "urlGithub": "https://github.com/RobertoValente/LinkingBot",
             "images": []
         }

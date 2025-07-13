@@ -1,27 +1,39 @@
 {
     "events": [
         {
-            "description": "Festival Nacional de Robótica 2025 - \"Madeira, Portugal\"",
+            "name": "Festival Nacional de Robótica 2025",
+            "year": 2025,
+            "location": "Madeira, Portugal",
             "url": "https://isep.ipp.pt/New/ViewNew/7305"
         },
         {
-            "description": "RoboCup 2023 - \"Bordeaux, France\"",
+            "name": "RoboCup 2023",
+            "year": 2023,
+            "location": "Bordeaux, France",
             "url": "https://www.correiodafeira.pt/equipa-da-secundaria-da-feira-participou-na-robocup23-em-bordeus/"
         },
         {
-            "description": "Roboparty 2023 - \"Guimarães, Portugal\"",
+            "name": "Roboparty 2023",
+            "year": 2023,
+            "location": "Guimarães, Portugal",
             "url": ""
         },
         {
-            "description": "European Robocup 2022  - \"Guimarães, Portugal\"",
+            "name": "European Robocup 2022",
+            "year": 2022,
+            "location": "Guimarães, Portugal",
             "url": ""
         },
         {
-            "description": "Festival Nacional de Robótica 2022 - \"Aveiro, Portugal\"",
+            "name": "Festival Nacional de Robótica 2022",
+            "year": 2022,
+            "location": "Aveiro, Portugal",
             "url": ""
         },
         {
-            "description": "Roboparty 2022 - \"Guimarães, Portugal\"",
+            "name": "Roboparty 2022",
+            "year": 2022,
+            "location": "Guimarães, Portugal",
             "url": ""
         }
     ]
