@@ -15,6 +15,16 @@
             ]
         },
         {
+            "status": "Tool for Local Use - Only",
+            "title": "📈 DrizzleStudioHub",
+            "description": "A hub for database connections with a ready-to-launch button for Drizzle Studio UI for your chosen connection.",
+            "urlGithub": "https://github.com/RobertoValente/DrizzleStudioHub",
+            "images": [
+                "https://i.imgur.com/sANmRCz.png",
+                "https://i.imgur.com/BcNM6Wc.png"
+            ]
+        },
+        {
             "status": "Archived",
             "title": "📬 ProblemHunt",
             "description": "Show/Submit Problems to be Solved by Developers! A collaborative platform where developers can find interesting challenges to work on.",
