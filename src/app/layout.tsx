@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     publisher: "Roberto Valente",
     applicationName: "Portfolio - Roberto Valente",
     title: {
-        default: "Portfolio - Roberto",
-        template: "%s | Portfolio - Roberto",
+        default: "Roberto Valente - Programador",
+        template: "%s | Roberto Valente - Programador",
     },
     description: "I'm Roberto - a developer and a dreamer with action! Always learning, always building.",
     keywords: [
